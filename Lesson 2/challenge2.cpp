@@ -9,7 +9,6 @@ using namespace std;
 int main() {
     unsigned short int b = -1;
     unsigned long long int d = -1;
-    unsigned long double d = -1;
-    
+    // unsigned long double d = -1;
     return 0;
 }
