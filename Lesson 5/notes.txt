@@ -1,0 +1,4 @@
+'&' is the Address of operator
+
+- used to get an address from variables
+- also can create a reference variable!
