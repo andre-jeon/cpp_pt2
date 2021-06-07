@@ -2,3 +2,19 @@
 
 - used to get an address from variables
 - also can create a reference variable!
+
+Why not "int& my_ref = &a"?
+
+- at complie time, all instances of 'my_ref' are replaced with the address of 'a', substituting it in
+
+Dereference Operator
+
+- *(star) known as the dereference operator˜
+- think of as "Get Value At..."
+- also used to create pointers
+
+pointers
+
+- variables with it's own block of memory
+- holds only an address to another block of memeory
+- it 'hooks' into other 'hoops'
