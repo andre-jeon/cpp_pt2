@@ -1,0 +1,22 @@
+IF
+
+- Just like python, but parenthesis () ALWAYS enclose condition
+- Non-zero values are true
+- Relational operators are same: <, >, <=, >=, ==, !=
+- Logic operators work the same: && = and, || = or
+
+- Indentation preffered(but optional)
+- Curly braces {} surround multiple lines
+
+Conditional Operators
+
+- Represented by "?;"
+- Takes three operands(or evaluates three expressions)
+- (bool condition) ? option 1 : option 2
+
+Switches
+
+- Alternative to lost of if/else-if statements
+- Matching two equal values together
+- Only works with ints(+/-) and chars
+
