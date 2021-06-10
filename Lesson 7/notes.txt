@@ -1,0 +1,13 @@
+LOOPS!
+
+- A way to repeat a set of operations
+- Same loops that we used in Python: for, while
+
+LOOPS + Guidelines
+
+- Not used often in C++
+    - Often a better pattern operation
+
+- C++ Core Guidelines suggests patterns over simple loops
+
+- I will be teaching C++ Core Guidelines
