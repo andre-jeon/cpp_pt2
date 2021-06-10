@@ -16,3 +16,11 @@ While Loops
 
 - Use while if unclear how many times looping OR no clear loop var
 - Curly braces not necessary if only looping a single line of code
+
+Do While Loops
+
+- Never really used because it's hard to read
+
+For Loops
+
+- Loop that executes a limited number of times
