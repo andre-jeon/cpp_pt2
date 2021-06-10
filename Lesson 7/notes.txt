@@ -11,3 +11,8 @@ LOOPS + Guidelines
 - C++ Core Guidelines suggests patterns over simple loops
 
 - I will be teaching C++ Core Guidelines
+
+While Loops
+
+- Use while if unclear how many times looping OR no clear loop var
+- Curly braces not necessary if only looping a single line of code
