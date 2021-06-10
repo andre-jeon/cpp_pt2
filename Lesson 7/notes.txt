@@ -24,3 +24,13 @@ Do While Loops
 For Loops
 
 - Loop that executes a limited number of times
+- Use for loop when number of loops known or obvious variable
+- Acts exact same as previous code
+- 'break' stops loop, 'continue' skips to next iteration
+
+Nested Loops
+
+- Simply a loop within another loop
+- Doesn't matter what kind of loop
+- Should be avoided
+
