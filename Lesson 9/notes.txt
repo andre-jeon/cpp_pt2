@@ -1,0 +1,8 @@
+FUNCTIONS
+
+void = return data type
+print_Ham = function name
+() = enclose parameters
+{} = enclose main code block
+print_Ham() = function call
+
