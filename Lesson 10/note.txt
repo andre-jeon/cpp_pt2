@@ -33,3 +33,29 @@ HEADER GUARDS
 - SF.4: Include .h files before other declarations in file
 - SF.7: Don't put "using" directives in a header file
 - SF.8: Use #include Guards for all .h files(aka header guards)
+
+MACRO
+
+- Macros are constants
+- Similar to vars, but connot be changed
+- Recommend ONLY using for Header Guards
+- Enum.1: Prefer enumerations over macros
+- ES.32: use ALL_CAPS for all macro names
+
+NAMESPACE
+
+- Namesspace provides scope to identifiers
+- Prevents compiler erros from multiple same-name functions, classes, etc.
+- We've been using standard namespace with 'std::cout' and 'std::cin'
+- no namespace = Global namespace
+
+USING
+
+- Convert a specific namespace to a global namespace within it's block of code
+- Could be only within function or entire file if used at top
+- Using 'using' multiple times defeats purpose of namespace and code clarity
+
+Nesting & Aliases
+
+- Nest multiple namespaces within one another for more specificity
+- Create an alias of multiple namespaces to reduce typing
