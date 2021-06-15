@@ -1,0 +1,17 @@
+ADDITIONAL LIBRARIES
+
+- Get those 'standard' libraries you've always wanted(or needed)
+- Download from web and connecting to your projects is simple!
+
+
+BOOST
+
+- Free collection of cross platform libraries
+- www.boost.org
+- Includes function, keywords, data types and casts for stuff like: timer, optional
+
+GSL
+
+- Guideline Support Library
+- Built to support the C++ Core Guidelines
+- Contains a few but VERY USERFUL things: not_null, owner...

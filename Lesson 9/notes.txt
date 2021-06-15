@@ -1,0 +1,24 @@
+FUNCTIONS
+
+void = return data type
+print_Ham = function name
+() = enclose parameters
+{} = enclose main code block
+print_Ham() = function call
+
+C++ Core Guidelines:
+    - NL.1: Don't say in comments what can be clearly stated in code
+    - NL.10: Avoid CamelCase
+    - NL.8: Use a consistent naming style
+
+Input: Parameters and arguments passed into the function
+Output: Changes made to references/pointers OR returned from function
+
+- Types:
+    - void(or none)
+    - char, int, string, auto, etc
+    - arrays
+    - references / pointers
+    - templates, item collectiions, classes
+    - even 'cin' and 'cout'!!!
+
