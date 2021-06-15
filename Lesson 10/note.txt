@@ -10,3 +10,52 @@ FUNCTION DECLARATION / PROTOTYPES
 
 HEADERS
 
+ADD / REMOVE FILES
+
+- Solutions Explorers > Right Click > Add > Add Existing File
+- OR drag and drop files in
+- To Remove: Right Click > Remove
+
+#INCLUDE
+
+- Tells program which header files to use
+- Angular braces <> surround presupplied files/libraries
+- Double quotes "" used for custom files
+- Full directory paths can be included but using Include Additional Directories easier
+- No need to include .cpp files
+- File names should be clear and consistent
+
+HEADER GUARDS
+
+- Tell compiler to only compile code once
+
+- SF.2: May not contain object (class) definitions or non-inline function definitions
+- SF.4: Include .h files before other declarations in file
+- SF.7: Don't put "using" directives in a header file
+- SF.8: Use #include Guards for all .h files(aka header guards)
+
+MACRO
+
+- Macros are constants
+- Similar to vars, but connot be changed
+- Recommend ONLY using for Header Guards
+- Enum.1: Prefer enumerations over macros
+- ES.32: use ALL_CAPS for all macro names
+
+NAMESPACE
+
+- Namesspace provides scope to identifiers
+- Prevents compiler erros from multiple same-name functions, classes, etc.
+- We've been using standard namespace with 'std::cout' and 'std::cin'
+- no namespace = Global namespace
+
+USING
+
+- Convert a specific namespace to a global namespace within it's block of code
+- Could be only within function or entire file if used at top
+- Using 'using' multiple times defeats purpose of namespace and code clarity
+
+Nesting & Aliases
+
+- Nest multiple namespaces within one another for more specificity
+- Create an alias of multiple namespaces to reduce typing
