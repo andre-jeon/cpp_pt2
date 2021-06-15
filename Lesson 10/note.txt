@@ -1,0 +1,12 @@
+PREVIOUS LESSON UPDATE
+
+- Array parameters can be declared with []
+
+- When args are copied into function, we are passing by value
+- When args are pointers & references into parameters, we are passing by reference
+
+FUNCTION DECLARATION / PROTOTYPES
+- Allow us to define the function somewhere else in program!
+
+HEADERS
+
