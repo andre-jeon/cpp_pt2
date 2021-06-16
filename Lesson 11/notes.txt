@@ -1,0 +1,4 @@
+CONST
+
+- Keyword used before variable name to label as unchanging or CONSTANT
+
