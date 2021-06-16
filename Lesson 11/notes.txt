@@ -22,3 +22,10 @@ CONSTEXPR
     - constexpr may be used here
         constexpr int i = 6;
 
+INLINE
+
+- Keyword to be placed before short function's data type
+- Tells the compiler to subsitute the function's body anywhere function is called into code
+- If function too long, keyword ignored
+- saves overhead but requires recompiling everytime code changed
+
