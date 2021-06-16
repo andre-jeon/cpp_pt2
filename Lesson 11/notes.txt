@@ -1,4 +1,24 @@
 CONST
 
 - Keyword used before variable name to label as unchanging or CONSTANT
+- const can be before or after datatype, but must be before var name
+- const after * makes pointer address unchangeable, but value can change
+
+
+CONST + FUNCTIONS
+
+- const in parameters designates as unchanging or 'in-only' values
+- const reference should be used for large size datatypes like string, item collections or custom classes
+- Smaller size parameters should instead copy
+
+CONSTEXPR
+
+- Like const but specifies unchanging var for complie time only!! (not pointers)
+- Run time is when program executes
+    - const should always be used here
+        void f (const int i) {}
+
+- Complie time is when program builds the executable
+    - constexpr may be used here
+        constexpr int i = 6;
 
